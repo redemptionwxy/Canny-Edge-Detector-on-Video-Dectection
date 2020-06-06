@@ -10,7 +10,7 @@ while(1):
     img_gray = cv2.cvtColor(frame,cv2.COLOR_RGB2GRAY)
 
     cv2.imshow('Original',frame)
-    edges = cv2.Canny(img_gray,40,240)
+    edges = cv2.Canny(img_gray,100,250)
     cv2.imshow('Edges',edges)
 
     k = cv2.waitKey(5) & 0xFF
