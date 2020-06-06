@@ -20,7 +20,7 @@ while(1):
     cv2.imshow('Original',frame)
     edges = cv2.Canny(img_gray,100,200)
     cv2.imshow('Edges',edges)
-    cv2.imwrite(frames_save_path + "/frame%d.jpg" % count, edges, [cv2.IMWRITE_JPEG_QUALITY,20])
+    cv2.imwrite(frames_save_path + "/frame%d.jpg" % count, edges, [cv2.IMWRITE_JPEG_QUALITY,80])
     img = cv2.cvtColor(edges,cv2.COLOR_GRAY2RGB)
     k = cv2.waitKey(1) & 0xFF
     if k == 24:
