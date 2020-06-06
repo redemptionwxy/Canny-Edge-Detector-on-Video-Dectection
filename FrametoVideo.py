@@ -1,7 +1,7 @@
 import cv2
   
 def images_to_video():
-  fps = 30 # 帧率
+  fps = 30 
   num_frames = 5105
   img_array = []
 
