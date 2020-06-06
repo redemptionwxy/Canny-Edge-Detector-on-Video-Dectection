@@ -5,8 +5,8 @@ import pylab
 import imageio
 import cv2  
 
-videos_path = 'D:/Code/Python-DeepLearning/Canny/Video2.mp4'
-frames_save_path = 'D:/Code/Python-DeepLearning/Canny/Frame'
+videos_path = 'Add address'
+frames_save_path = 'Add address'
 
 
 cap = cv2.VideoCapture(videos_path)
