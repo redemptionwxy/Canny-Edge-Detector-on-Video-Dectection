@@ -17,3 +17,8 @@ All the frames are stored in Frame folder, and then run FrametoVideo.py, change 
 
 
 If your original video has audio, then run VideoaddAudio.py to add the original audio to the demo.mp4. Then a new video called demo_out.mp4 has been saved in root direction.
+
+
+Generated Video:
+Michael Jackson 《Billie Jean》1997
+https://www.bilibili.com/video/BV1Pa4y1Y7XZ?share_source=copy_web
